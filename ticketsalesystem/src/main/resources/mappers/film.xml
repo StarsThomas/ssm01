@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.thomas.dao.FilmDao">
+    <select id="selectAll" resultType="com.thomas.domain.Film">
+        SELECT * FROM FILM;
+    </select>
+
+    <select id="selectFilmById" resultType="com.thomas.domain.Film">
+        SELECT * FROM FILM WHERE FILM_ID = #{ID}
+    </select>
+
+
+
+</mapper>
