@@ -1,5 +1,7 @@
 package com.thomas.vo;
 
+import java.util.Date;
+
 public class FilmDetailVo {
     private String filmId;
     private String name;
@@ -10,6 +12,7 @@ public class FilmDetailVo {
     private String country;
     private String lan;
     private String imgPath;
+    private Date displayTime;
 
     public FilmDetailVo() {
     }
@@ -23,6 +26,14 @@ public class FilmDetailVo {
         this.introduction = introduction;
         this.country = country;
         this.lan = lan;
+    }
+
+    public Date getDisplayTime() {
+        return displayTime;
+    }
+
+    public void setDisplayTime(Date displayTime) {
+        this.displayTime = displayTime;
     }
 
     public String getImgPath() {

@@ -50,6 +50,7 @@ public class FilmServiceImp implements FilmService{
        detailVo.setLan(film.getFilm_language());
        detailVo.setLength(film.getFilm_length());
        detailVo.setImgPath(film.getImgs_path());
+       detailVo.setDisplayTime(film.getDisplay_time());
        return detailVo;
     }
 }

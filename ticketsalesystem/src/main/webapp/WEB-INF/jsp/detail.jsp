@@ -18,6 +18,7 @@
         <p>导演:${detailVo.director}</p>
         <p>类型:${detailVo.type}</p>
         <p>国家:${detailVo.country}</p>
+        <p>上映时间:${detailVo.displayTime}</p>
         <p>语言:${detailVo.lan}</p>
         <p>片长:${detailVo.length}</p>
         <p>剧情介绍:${detailVo.introduction}</p>
